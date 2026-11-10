@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>josratpvpresta</name>
+    <displayName><![CDATA[TPV tienda f&iacute;sica (josratpvpresta)]]></displayName>
+    <version><![CDATA[1.2.0]]></version>
+    <description><![CDATA[Punto de venta para tienda f&iacute;sica integrado con PrestaShop: ventas, variantes, caja, tickets con QZ Tray, devoluciones y base para addons.]]></description>
+    <author><![CDATA[Jose]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[¿Desinstalar el TPV? Las ventas, cajas y tickets se conservan en la base de datos.]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>
