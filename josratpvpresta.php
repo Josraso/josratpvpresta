@@ -27,7 +27,7 @@ foreach ($jtpClasses as $jtpClass) {
 
 class Josratpvpresta extends PaymentModule
 {
-    const VERSION = '1.2.0';
+    const VERSION = '1.2.1';
 
     /** Lo usa PrestaShop para el transportista de módulo "Venta en tienda (TPV)" */
     public $id_carrier;
@@ -83,6 +83,9 @@ class Josratpvpresta extends PaymentModule
 
     public function uninstall()
     {
+        // Aviso al servidor de actualizaciones (no impide desinstalar si no responde)
+        $this->getUpdater()->notifyUninstall();
+
         $installer = new JtpInstaller($this);
         $installer->uninstall(false);
         Configuration::deleteByName('JOSRATPVPRESTA_UPD_TS');

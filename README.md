@@ -174,3 +174,6 @@ Al actualizar se mantiene lo que tenías con los interruptores.
 - **Dirección del cliente por defecto:** en Configuración > General, debajo del cliente por defecto, se elige qué dirección suya usan las ventas sin identificar. Hacía falta cuando el cliente por defecto ya existía antes del TPV (por ejemplo «Clientes de contado») y tiene varias direcciones: el TPV cogía la última con NIF, que podía ser la de otra persona. Si no se elige ninguna, se usa su dirección «TPV» (la de la tienda) y, si no tiene, se le crea. Al cambiar de cliente por defecto, la dirección vuelve a «Automática» hasta que se elija otra.
 - **Servidor de actualizaciones de josra:** aviso diario de la instalación, bloque «Actualizaciones» en la configuración (comprobar y actualizar desde la tienda, con copia previa) y, en PrestaShop 8.1+, la versión nueva en Gestor de módulos > Actualizaciones.
 
+## 1.2.1 · Clave propia en el servidor de actualizaciones
+
+- Clave propia del módulo en el servidor de actualizaciones: ya no comparte clave con otros módulos. Además avisa al servidor cuando se desinstala y del resultado de cada actualización hecha desde la configuración (si falla, con el motivo). Sin cambios en el funcionamiento del módulo.
