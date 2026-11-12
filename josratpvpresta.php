@@ -27,7 +27,7 @@ foreach ($jtpClasses as $jtpClass) {
 
 class Josratpvpresta extends PaymentModule
 {
-    const VERSION = '1.2.3';
+    const VERSION = '1.2.4';
 
     /** Lo usa PrestaShop para el transportista de módulo "Venta en tienda (TPV)" */
     public $id_carrier;
