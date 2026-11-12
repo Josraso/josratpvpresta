@@ -2,7 +2,7 @@
 <module>
     <name>josratpvpresta</name>
     <displayName><![CDATA[TPV tienda f&iacute;sica (josratpvpresta)]]></displayName>
-    <version><![CDATA[1.2.4]]></version>
+    <version><![CDATA[1.2.5]]></version>
     <description><![CDATA[Punto de venta para tienda f&iacute;sica integrado con PrestaShop: ventas, variantes, caja, tickets con QZ Tray, devoluciones y base para addons.]]></description>
     <author><![CDATA[Jose]]></author>
     <tab><![CDATA[payments_gateways]]></tab>
